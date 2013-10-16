@@ -1,7 +1,7 @@
 #import "SignatureCapture.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation WpSignatureCaptureView {
+@implementation SignatureCapture {
     UIBezierPath *path;
     CGPoint previousPoint;
     NSMutableArray *paths;
